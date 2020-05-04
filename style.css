@@ -1,0 +1,17 @@
+.navbar {
+    background-color: rgb(56,57,63);
+}
+
+.img1 {
+    background-image: url(img/Opening.jpg);
+    height: 950px;
+    position: absolute;
+}
+.con1 {
+    position: relative;
+    top: 41.50%;
+}
+.title {
+    color: white;
+    text-align: center;
+}
