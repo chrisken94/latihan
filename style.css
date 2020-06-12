@@ -5,9 +5,11 @@
 .img1 {
     background-image: url(img/Opening.jpg);
     height: 950px;
+    /* position absolute ini, mqn akn pngaruhi divisi dibawahnya */
     position: absolute;
 }
 .con1 {
+    /* position relative (influencing the bottom on division(?)) */
     position: relative;
     top: 41.50%;
 }
