@@ -4,6 +4,5 @@ function funcTog() {
         x.className += " responsive";
     } else {
         x.className = "navbar";
-        x.preventDefault();
     }
 }
