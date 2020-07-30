@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #38393f;
+}
+
+.img1 {
+  background-image: url(img/Opening.jpg);
+  height: 950px;
+  /* position absolute ini, mqn akn pngaruhi divisi dibawahnya */
+  position: absolute;
+}
+
+.con1 {
+  /* position relative (influencing the bottom on division(?)) */
+  position: relative;
+  top: 41.50%;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=style2.css.map */
