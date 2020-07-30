@@ -1,5 +1,15 @@
+
 .navbar {
     background-color: rgb(56,57,63);
+    overflow: hidden;
+}
+
+.navbar img {
+    display: inline;
+}
+
+.navbar .icon {
+    display: none;
 }
 
 .img1 {
@@ -8,12 +18,45 @@
     /* position absolute ini, mqn akn pngaruhi divisi dibawahnya */
     position: absolute;
 }
-.con1 {
-    /* position relative (influencing the bottom on division(?)) */
-    position: relative;
-    top: 41.50%;
-}
+
 .title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar img {
+        display: inline;
+    }
+    .navbar a.icon {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 5%;
+        transform: translate(0%, -50%);
+        color: yellow;
+    }
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 5%;
+        top: 15%;
+    }
+    .navbar.responsive ul {
+        margin: 10px auto auto;
+    }
+    .navbar.responsive a {
+        text-align: center;
+        display: block;
+    }
+}
+// end-of @media

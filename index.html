@@ -13,15 +13,20 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style2.css">
 
+  <!-- link to JS -->
+  <script src="script.js"></script>
+
+  <!-- link to hamburger img from FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-sm" id="myNav">
+
     <img src="img/Highlight.jpg" alt="">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -39,28 +44,26 @@
         <li class="nav-item">
           <a class="nav-link text-white-50" href="#">Teams</a>
         </li>
+        <li>
+          <a href="javascript:void(0);" class="icon" onclick="funcTog()">
+            <i class="fa fa-bars fa-lg"></i>
+          </a>
+        </li>
       </ul>
     </div>
+
   </nav>
 
   <!-- HOME IMAGE -->
   <div class="container-fluid img1">
 
-    <div class="container-fluid con1">
-      <div class="row row1">
-
-        <div class="col-sm-2"></div>
         <div class="title col-sm-8">
           <h1>THIS IS A WEB DESIGN EXAM</h1>
           <br>
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, aliquam. Et tempore fugiat eos dolorem sit? Quisquam debitis quos possimus totam reiciendis porro obcaecati sequi dolor culpa, et sunt minima.</h4>
           <a href="" class="btn btn-dark btn-lg">Good Luck bro</a>
         </div>
-        <div class="col-sm-2"></div>
 
-      </div>
-    </div>
-    
   </div>
   
   <!-- BS jQuery, Popper.js, Javascript -->
