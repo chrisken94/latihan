@@ -47,7 +47,7 @@
   .navbar.responsive {
     position: relative;
   }
-  .navbar.responsive a.icon {
+  .navbar.responsive li a.icon {
     position: absolute;
     right: 5%;
     top: 15%;
@@ -55,9 +55,17 @@
   .navbar.responsive ul {
     margin: 10px auto auto;
   }
-  .navbar.responsive a {
+  .navbar.responsive li a {
     text-align: center;
     display: block;
+  }
+  .navbar.responsive .nav-link:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: teal;
+    border-radius: 5px;
+    font-weight: bold;
+    color: yellow !important;
   }
 }
 /*# sourceMappingURL=style2.css.map */
